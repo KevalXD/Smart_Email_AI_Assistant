@@ -1,0 +1,13 @@
+spec_version: 1
+name: email_triage_env
+version: 1.0.0
+description: Environment for email triage tasks
+type: space
+runtime: fastapi
+app: server.app:app
+port: 8000
+
+tasks:
+  - classify_easy
+  - reply_medium
+  - triage_hard
