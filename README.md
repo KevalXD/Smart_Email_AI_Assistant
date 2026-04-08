@@ -76,3 +76,65 @@ git clone https://github.com/YOUR_USERNAME/Smart_Email_AI_Assistant.git
 cd Smart_Email_AI_Assistant
 pip install -r requirements.txt
 python app.py
+```
+
+🌐 Live Demo
+
+👉 Hugging Face Space:
+https://huggingface.co/spaces/KevalRJ/Smart_Email_AI_Assistant
+
+---
+
+📊 Sample Output
+📌 Classification: important
+
+💬 Reply: Thank you for your email. I will assist you shortly.
+
+📊 Priority Order: ['A', 'C', 'B']
+
+🧠 Explanation:
+A → High urgency  
+C → Time-sensitive  
+B → Low priority / promotional
+
+---
+
+🎯 Use Cases
+
+-Customer support automation
+
+-Email productivity tools
+
+-Business communication assistants
+
+-AI workflow demos
+
+---
+
+🚧 Future Improvements
+
+-Integrate LLM APIs for smarter replies
+
+-Real email inbox integration (Gmail/Outlook)
+
+-Learning-based prioritization (ML models)
+
+-Multi-language support
+
+---
+
+👨‍💻 Author
+
+Daman Shetty & Keval R Jain
+
+---
+
+🏁 Conclusion
+
+This project demonstrates how AI can simplify email management through:
+
+Intelligent classification
+Automated responses
+Smart prioritization
+
+A practical step toward AI-powered productivity tools 🚀
